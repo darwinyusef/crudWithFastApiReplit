@@ -48,10 +48,9 @@ def bars_graph():
     plt.rcParams['figure.autolayout'] = True
     fig = plt.figure(
     )  # make sure to call this, in order to create a new figure
-
     fig, ax = plt.subplots()
     fruits = ['Pepito', 'Juanita', 'Fabian', 'Lukas']
-    counts = [40, 100, 30, 55]
+    counts = [90, 100, 10, 80]
     bar_labels = ['red', 'blue', '_red', 'orange']
     bar_colors = ['tab:red', 'tab:blue', 'tab:red', 'tab:orange']
     ax.bar(fruits, counts, label=bar_labels, color=bar_colors)
