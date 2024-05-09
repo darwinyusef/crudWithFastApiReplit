@@ -50,7 +50,7 @@ def bars_graph():
     )  # make sure to call this, in order to create a new figure
 
     fig, ax = plt.subplots()
-    fruits = ['Pepito', 'Juanita', 'Nepe', 'StateNepeOff']
+    fruits = ['Pepito', 'Juanita', 'Fabian', 'Lukas']
     counts = [40, 100, 30, 55]
     bar_labels = ['red', 'blue', '_red', 'orange']
     bar_colors = ['tab:red', 'tab:blue', 'tab:red', 'tab:orange']
